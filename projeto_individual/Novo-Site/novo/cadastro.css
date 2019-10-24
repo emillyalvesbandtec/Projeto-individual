@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: url(./logo\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.conteudo{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    background-color: rgba(0, 0, 0 , .4);
+    right: 5%;
+    top: 50%;
+    margin-left: 200px;
+    margin-top: -300px;
+    border-radius: 7px;
+}
+
+.conteudo h1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+input{
+    position: relative;
+    display: block;
+    width: 180px;
+    left: 50%;
+    margin-left: -90px;
+    margin-bottom: 15px; 
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+button{
+    position: relative;
+    width: 100px;
+    padding: 7px;
+    background: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 45px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(245,222,179,.3);
+}
+
+button:hover::before{
+    transition: all 1s linear;
+    width: 100%;
+}
