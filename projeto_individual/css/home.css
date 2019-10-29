@@ -4,7 +4,58 @@
 }
 
 body{
-    background: url(./inicial.jpg);
+    background: url(../img/inicial.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.conteudo{
+    
+position: relative;
+width: 1390px;
+height: 146px;
+left: -24px;
+top: -1px;
+
+background: rgba(196, 196, 196, 0.1);
+}
+
+h1{
+    position: relative;
+width: 224px;
+height: 64px;
+left: 63px;
+top: 28px;
+font-family: Roboto;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+}
+
+
+
+
+.home{
+    position: relative;
+    width: 129px;
+    height: 45px;
+    left: 365px;
+    top: 50px;
+    font-family: Roboto;
+    font-size: 28px;
+    color: #FE620B;
+
+}
+
+.company{
+    position: relative;
+    width: 149px;
+    height: 44px;
+    left: 534px;
+    top: 51px;
+    font-family: Roboto;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+
