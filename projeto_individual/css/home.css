@@ -10,52 +10,141 @@ body{
 }
 
 .conteudo{
-    
-position: relative;
-width: 1390px;
-height: 146px;
-left: -24px;
-top: -1px;
-
-background: rgba(196, 196, 196, 0.1);
+    position: relative;
+    width: 1364.5px;
+    height: 146px;
+    left: 1.5px;
+    top: -1px;
+    background: rgba(196, 196, 196, 0.1);
 }
 
-h1{
+.titulo{
     position: relative;
-width: 224px;
-height: 64px;
-left: 63px;
-top: 28px;
-font-family: Roboto;
-font-size: 48px;
-line-height: 56px;
-color: #FFFFFF;
+    width: 224px;
+    height: 64px;
+    left: 63px;
+    top: 28px;
+    font-size: 48px;
+    color: #FFFFFF;
 }
 
-
-
-
-.home{
-    position: relative;
-    width: 129px;
-    height: 45px;
-    left: 365px;
-    top: 50px;
-    font-family: Roboto;
+.tech{
+    position: absolute;
+    width: 58px;
+    height: 33px;
+    left: 174px;
+    top: 76px;
     font-size: 28px;
     color: #FE620B;
 
 }
 
-.company{
-    position: relative;
+a{
+    font-size: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FE620B;
+}
+
+.link-home{
+    position: absolute;
+    width: 129px;
+    height: 45px;
+    left: 365px;
+    top: 50px;
+}
+
+.link-company{
+    position: absolute;
     width: 149px;
     height: 44px;
     left: 534px;
     top: 51px;
-    font-family: Roboto;
-    font-size: 28px;
+}
+
+.link-products{
+    position: absolute;
+    width: 178px;
+    height: 46px;
+    left: 737px;
+    top: 50px;
+}
+
+.link-contact{
+    position: absolute;
+    width: 173px;
+    height: 42px;
+    left: 930px;
+    top: 47px;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+button{
+    position: absolute;
+    width: 238px;
+    height: 56px;
+    left: 1087px;
+    top: 33px;
+    background: #FE620B;
+    border-radius: 2px;
+    font-size: 22px;
+    border: solid 1px #fff;
+    color: #FFFFFF;
+
+}
+
+button::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background:#FFFFFF;
+}
+
+button:hover::before{
+    transition: all 1s linear;
+    width: 100%;
+}
+
+.texto{
+    position: absolute;
+    width: 489px;
+    height: 188px;
+    left: 20px;
+    top: 268px;
+}
+
+.mensagem{
+    font-size: 37px;
+    line-height: 59px;
     color: #FFFFFF;
 }
 
+.quadrado{
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 243px;
+    top: 139px;
+    background: #FE620B;
+}
 
+.tela{
+    position: absolute;
+width: 354.58px;
+height: 534.86px;
+left: 1365.62px;
+top: 395px;
+
+background: #FE620B;
+transform: rotate(45.83deg);
+}
