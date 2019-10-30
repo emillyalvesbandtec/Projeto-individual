@@ -14,16 +14,50 @@ body{
 
 }
 
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0, 0, 0 , .4);
+}
+
+a{
+    color:#FE620B;
+}
+
+.home{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    top: 8px;
+    left: 40px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sobre{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    top: 8px;
+    left: 110px;
+}
+
 .conteudo{
     position: absolute;
+    margin-left: 70%;
+    margin-top: 3%;
+    position: absolute;
     height: 600px;
-    width: 400px;
+    width: 393px;
     background-color: rgba(0, 0, 0 , .4);
-    right: 5%;
-    top: 50%;
-    margin-left: 200px;
-    margin-top: -300px;
     border-radius: 7px;
+    /* margin-right: -9%; */
+    /* top: 50%; */
+    /* margin-left: 200px; */
+    /* margin-top: -290px; */
 }
 
 .conteudo h1{
@@ -85,10 +119,6 @@ button:hover{
 /*button:hover{
     width: 100%;
 }*/
-
-a{
-    color:#FE620B;
-}
 
 .conta{
 
