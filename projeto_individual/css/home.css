@@ -20,9 +20,9 @@ body{
 
 .titulo{
     position: relative;
-    width: 224px;
+    width: 158px;
     height: 64px;
-    left: 63px;
+    left: 54px;
     top: 28px;
     font-size: 48px;
     color: #FFFFFF;
@@ -100,7 +100,14 @@ button{
 
 }
 
-button::before{
+button:hover{
+    transition: all 1s;
+    background-color: white;
+    color: orange;
+    border: solid 1px orange;
+}
+
+/*button::before{
     content: '';
     position: absolute;
     left: 0px;
@@ -108,13 +115,13 @@ button::before{
     width: 0px;
     height: 100%;
     background:#FFFFFF;
-}
-
+}*/
+/*
 button:hover::before{
     transition: all 1s linear;
     width: 100%;
 }
-
+*/
 .texto{
     position: absolute;
     width: 489px;
@@ -138,13 +145,16 @@ button:hover::before{
     background: #FE620B;
 }
 
-.tela{
+/*.tela{
     position: absolute;
-width: 354.58px;
-height: 534.86px;
-left: 1365.62px;
-top: 395px;
+    width: 354.58px;
+    height: 534.86px;
+    left: 82%;
+    top: 80%;
+    background: #FE620B;
+    transform: rotate(45.83deg);
 
-background: #FE620B;
-transform: rotate(45.83deg);
-}
+}*/
+
+
+

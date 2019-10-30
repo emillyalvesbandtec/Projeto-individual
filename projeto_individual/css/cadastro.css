@@ -31,7 +31,7 @@ body{
     width: 100%;
     text-align: center;
     padding: 30px;
-    color: #fff;
+    color: #FE620B;
     box-sizing: border-box;
 }
 
@@ -61,7 +61,7 @@ button{
     padding: 7px;
     background: transparent;
     color: #fff;
-    border: solid 1px #fff;
+    border: solid 1px #FE620B;
     left: 50%;
     margin-left: -50px;
     margin-top: 45px;
@@ -69,17 +69,30 @@ button{
     cursor: pointer;
 }
 
-button::before{
-    content: '';
+button:hover{
+    /*content: '';
     position: absolute;
     left: 0px;
     top: 0px;
     width: 0px;
     height: 100%;
-    background: rgba(245,222,179,.3);
+    /*background: rgba(245, 187, 179, 0.3);*/
+    transition: all 1s linear;
+    background:#FE620B;
+    color: #fff;
 }
 
-button:hover::before{
-    transition: all 1s linear;
+/*button:hover{
     width: 100%;
+}*/
+
+a{
+    color:#FE620B;
+}
+
+.conta{
+
+    top: 90%;
+    right: 14%;
+    position: absolute;
 }
