@@ -54,6 +54,11 @@
                         alert(`Nome muito pequeno`);
                     }
 
+                   if(!valor_sobre != ''){
+
+                        sobre.style.borderBottom = '1px solid red';
+                        alert(`Infome seu sobrenome`);
+                   }
                     if(!valor_email.endsWith('@bandtec.com.br')){
                         
                         email.style.borderBottom = '1px solid red';
@@ -83,6 +88,8 @@
                         
                         rep_senha.style.borderBottom = '1px solid red';
 
+                }else{
+                    rep_senha.style.borderBottom = '1px solid white';
                 }
             }
 </script>
