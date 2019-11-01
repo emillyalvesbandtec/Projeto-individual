@@ -7,6 +7,7 @@ body{
     background: url(../img/inicial2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .conteudo{
@@ -151,16 +152,60 @@ button:hover::before{
 }
 
 
-/*.tela{
+video{
+    width: 350px;
+    height: 250;
+}
+
+
+video{
     position: absolute;
-    width: 354.58px;
-    height: 534.86px;
-    left: 82%;
-    top: 80%;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 700px;
+}
+
+.sobre{
+
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 710px;
+    width: 450px;
+    height: 200px;
+
+}
+
+.card{
+    position: absolute;
+    right: -50%;
+    margin-top: 710px;
+    width: 700px;
+    height: 290px;
     background: #FE620B;
-    transform: rotate(45.83deg);
+    z-index: 1;
+}
 
-}*/
+.card button{
+    position: absolute;
+    width: 203px;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 138px;
+    top: 41%;
+}
 
+.card:hover{
+    right: 0%;
+    transition: all .4s linear;
+}
+
+.titulo_2{
+    font-size: 30px;
+}
+
+.texto_2{
+    font-size: 24px;
+}
 
 
