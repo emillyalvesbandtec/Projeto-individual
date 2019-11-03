@@ -91,20 +91,16 @@ a:hover{
 }
 
 .conteudo{
-    position: absolute;
-    margin-left: 70%;
+
+    float: right;
     margin-top: 3%;
     height: 600px;
     width: 393px;
     background-color: rgba(0, 0, 0 , .4);
     border-radius: 7px;
-    /* margin-right: -9%; */
-    /* top: 50%; */
-    /* margin-left: 200px; */
-    /* margin-top: -290px; */
 }
 
-.conteudo h1{
+ .conteudo h1{
     position: relative;
     width: 100%;
     text-align: center;
@@ -148,25 +144,16 @@ button{
 }
 
 button:hover{
-    /*content: '';
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 0px;
-    height: 100%;
-    /*background: rgba(245, 187, 179, 0.3);*/
+
     transition: all 1s linear;
     background:#FE620B;
     color: #fff;
 }
 
-/*button:hover{
-    width: 100%;
-}*/
 
 .conta{
 
     top: 90%;
     right: 14%;
     position: absolute;
-}
+} 
