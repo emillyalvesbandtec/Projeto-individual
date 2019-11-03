@@ -26,11 +26,10 @@ a{
 }
 
 .home{
-    position: absolute;
-    text-decoration: none;
-    font-size: 20px;
-    top: 8px;
-    left: 40px;
+ 
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 3%
 }
 
 a:hover{
@@ -38,18 +37,63 @@ a:hover{
 }
 
 .sobre{
-    position: absolute;
+
     text-decoration: none;
     font-size: 20px;
-    top: 8px;
-    left: 110px;
+    margin-left: 3%
+}
+
+
+.aside{
+    float: left;
+    width: 450px;
+    height: 550px;
+    background-color: rgba(0, 0, 0 , .8);
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 7px;
+}
+
+.sport{
+    color: #fff;
+    width: 111px;
+    height: 31px;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.tech{
+    color: #FE620B;
+    margin-left: 82px;
+    width: 34px;
+    font-size: 28px;
+}
+
+.titulo{
+    color: #fff;
+    margin-left: 21%;
+    margin-top: 34%
+}
+
+.titulo-menor{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 2%;
+    font-size: 19px;
+    margin-left: 5%;
+}
+
+.ano{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 30%;
+    margin-left: 5%;
+    margin-top: 47%;
 }
 
 .conteudo{
     position: absolute;
     margin-left: 70%;
     margin-top: 3%;
-    position: absolute;
     height: 600px;
     width: 393px;
     background-color: rgba(0, 0, 0 , .4);
@@ -78,7 +122,7 @@ input{
     margin-bottom: 15px; 
     border: none;
     background: transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     outline: none;
     padding: 20px;
     box-sizing: border-box;
