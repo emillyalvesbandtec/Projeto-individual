@@ -23,7 +23,6 @@ body{
 }
 
 
-
 .aside{
     float: left;
     width: 450px;
@@ -69,7 +68,7 @@ body{
 }
 
 .home, .sobre {
-    font-size: 15px;
+    font-size: 19px;
     color: #ffffff;
     text-decoration: none;
     width: 49px;
@@ -194,7 +193,7 @@ a{
         margin-left: 42%;
         margin-top: 20%;
         margin-bottom: 15%; */
-}
+
 
 /* input{
     display: block;
@@ -205,7 +204,7 @@ a{
   border-bottom: 2px solid black;
   margin-left: 18%;
   margin-bottom: 5%; */
-}
+
 
 /* ::-webkit-placeholder{
     color: #FE620B;

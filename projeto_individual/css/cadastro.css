@@ -14,8 +14,14 @@ body{
 
 }
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+}
+
+
 .nav{
-    position: absolute;
+ 
     width: 100%;
     height: 44px;
     background-color: rgba(0, 0, 0 , .4);
@@ -28,7 +34,7 @@ a{
 .home{
  
         text-decoration: none;
-        font-size: 20px;
+        font-size: 19px;
         margin-left: 3%
 }
 
@@ -39,7 +45,7 @@ a:hover{
 .sobre{
 
     text-decoration: none;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 3%
 }
 
@@ -50,7 +56,7 @@ a:hover{
     height: 550px;
     background-color: rgba(0, 0, 0 , .8);
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 7px;
 }
 
@@ -93,7 +99,7 @@ a:hover{
 .conteudo{
 
     float: right;
-    margin-top: 3%;
+    margin-top: 1%;
     height: 600px;
     width: 393px;
     background-color: rgba(0, 0, 0 , .4);
@@ -131,17 +137,16 @@ input{
 }
 
 button{
-    position: relative;
-    width: 100px;
-    padding: 7px;
+    width: 123px;
+    padding: 10px;
     background: transparent;
     color: #fff;
     border: solid 1px #FE620B;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: 45px;
-    border-radius: 2px;
-    cursor: pointer;
+    left: 43%;
+    margin-left: 126px;
+    margin-top: 29px;
+    border-radius: 4px;
+
 }
 
 button:hover{
