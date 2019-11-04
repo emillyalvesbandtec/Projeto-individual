@@ -17,9 +17,23 @@ body{
 
 .facebook{
     margin-left: 47%;
+    width: 30px;
 }
 
+.instagram{
+    width: 30px;
+    margin-left: 4px;
+}
+
+.twitter{
+    width: 30px;
+    margin-left: 4px;
+        
+}
+
+
 .nav{
+    
     width: 100%;
     background-color: rgba(0, 0, 0 , .7);
     height: 40px;
@@ -30,7 +44,7 @@ body{
     float: left;
     width: 450px;
     height: 550px;
-    background-color: rgba(0, 0, 0 , .8);
+    background-color: rgba(65,65,65);
     margin-left: 5%;
     margin-top: 2%;
     border-radius: 7px;
@@ -96,7 +110,7 @@ body{
     float: right;
     width: 450px;
     height: 550px;
-    background-color: rgba(0, 0, 0 , .6);
+    background-color: rgb(65, 65, 65);
     margin-right: 5%;
     margin-top: 2%;
     border-radius: 7px;
