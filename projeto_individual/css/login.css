@@ -16,8 +16,9 @@ body{
 }
 
 .facebook{
-    margin-left: 47%;
+    margin-left: 78%;
     width: 30px;
+    margin-top: 4px;
 }
 
 .instagram{
@@ -35,7 +36,7 @@ body{
 .nav{
     
     width: 100%;
-    background-color: rgba(0, 0, 0 , .5);
+    background-color: rgba(0, 0, 0 , .4);
     height: 40px;
 }
 
@@ -47,7 +48,7 @@ body{
     background-color: rgba(0, 0, 0 , .6);
     /* background-color: rgba(65,65,65); */
     margin-left: 5%;
-    margin-top: 1%;
+    margin-top: 3%;
     border-radius: 7px;
 }
 
@@ -114,7 +115,7 @@ body{
     background-color: rgba(0, 0, 0 , .6);
     /* background-color: rgb(65, 65, 65); */
     margin-right: 5%;
-    margin-top: 1%;
+    margin-top: 3%;
     border-radius: 7px;
 }
 
@@ -159,7 +160,7 @@ button{
 
 ::-webkit-placeholder{
     color: #fff;
-    x
+    
 }
 
 button::before{
