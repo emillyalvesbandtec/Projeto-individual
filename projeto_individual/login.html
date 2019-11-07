@@ -58,3 +58,27 @@
 
 </body>
 </html>
+
+
+<script>
+            function entrar(){
+                
+                var valor_email = email.value;
+                var valor_senha = senha.value;
+
+                if(valor_email.endsWith('@bandtec.com.br') &&  valor_senha.length >= 4){
+
+                    alert(`Login efetuado com sucesso`);
+                
+                }else if(!valor_email.endsWith('@bandtec.com.br')){
+                
+                    email.style.borderBottom = '2px solid red';
+                    (`Email ou senha inválidos`);
+                }else{
+
+                    senha.style.borderBottom = '2px solid red';
+                }
+            }
+            
+
+</script>
