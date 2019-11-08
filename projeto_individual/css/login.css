@@ -210,7 +210,9 @@ a{
     margin-left: 55%;
 }
 
-.
+.tremer{
+    animation : tremer 1s linear 2;
+}
 
 
 

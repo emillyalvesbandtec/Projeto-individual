@@ -107,6 +107,10 @@ a:hover{
     margin-right: 4%;
 }
 
+.tremer{
+    animation : tremer 1s linear 2;
+}
+
  .conteudo h1{
     position: relative;
     width: 100%;
@@ -163,3 +167,16 @@ button:hover{
     right: 14%;
     position: absolute;
 } 
+
+
+@keyframes tremer{
+    0%{
+        transform: translateX(0%);
+    }25%{
+        transform: translateX(10%);
+    }50%{
+        transform: translateX(-10%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
