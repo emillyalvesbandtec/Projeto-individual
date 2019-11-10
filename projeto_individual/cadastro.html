@@ -58,55 +58,47 @@
         var valor_senha = senha.value;
         var valor_rep_senha = rep_senha.value;
 
-        if (valor_nome != '' && valor_sobre != '' && valor_email.endsWith('@bandtec.com.br')
-            && valor_senha.length >= 4 && valor_senha == valor_rep_senha && valor_nome.length > 3) {
+        if (valor_nome == '' || valor_sobre == '' || valor_email == '' ||
+         valor_senha.length == '' || valor_senha == '' || valor_rep_senha == ''){
 
-            alert(`Cadastro realizado com sucesso`);
-        } else {
-
-            // if(valor_nome == '' && valor_sobre == '' && valor_email == '' && valor_senha == ''){
-
-            //     nome.style.borderBottom = '1px solid red';
-            //     sobre.style.borderBottom = '1px solid red';
-            //     email.style.borderBottom = '1px solid red';
-            //     senha.style.borderBottom = '1px solid red';
-
-            //     alert(`Complete todos os campos`);
-            
-
-            if (valor_nome.length < 3) {
-
+            alert(`Preencha todos os campos`);
+        
+        } else if(valor_nome.length < 3){
+                
                 nome.style.borderBottom = '1px solid red';
                 tremer();
                 alert(`Nome muito pequeno`);
-            }
 
-             if (!valor_sobre != '') {
-
+            }else if (!valor_sobre != '') {
+                
                 sobre.style.borderBottom = '1px solid red';
                 tremer();
                 alert(`Infome seu sobrenome`);
-            }
-             if (!valor_email.endsWith('@bandtec.com.br')) {
-                tremer();
+
+            
+            }else if (!valor_email.endsWith('@bandtec.com.br')) {
+                
                 email.style.borderBottom = '1px solid red';
+                tremer(); 
                 alert(`E-mail diferente de @bandtec.com.br`);
-            }
 
-            if (valor_senha.length < 4) {
-
+            }else if (valor_senha.length < 4) {
+                
                 tremer();
                 senha.style.borderBottom = '1px solid red';
                 alert(`Senha muito pequena`);
-            }
-             if (valor_senha != valor_rep_senha) {
-
+            }else if (valor_senha != valor_rep_senha) {
+                
                 tremer();
                 alert(`Senhas diferentes`);
 
+            }else{
+
+                    location.href = "login.html";
             }
+        
         }
-    }
+    
 
     function senhaErrada() {
         var valor_senha = senha.value;
