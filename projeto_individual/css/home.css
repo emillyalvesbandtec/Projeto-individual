@@ -51,37 +51,34 @@ a:hover {
     color: #FE620B;
 }
 
-.link-home{
+.link-noticias{
     position: absolute;
-    width: 129px;
-    height: 45px;
-    left: 365px;
-    top: 35px;
+    left: 28%;
+    top: 31%;
 }
 
 .link-sobre{
     position: absolute;
-    width: 149px;
-    height: 44px;
-    left: 509px;
-    top: 35px;
+    left: 41%;
+    top: 31%;
+    
 }
 
-.link-produtos{
+.link-login{
     position: absolute;
-    width: 178px;
-    height: 46px;
-    left: 657px;
-    top: 34px;
+    left: 66%;
+    top: 31%;
+    
 }
+
 
 .link-contato{
-       position: absolute;
-    width: 178px;
-    height: 46px;
-    left: 823px;
-    top: 34px;
+    position: absolute;
+    left: 53%;
+    top: 31%;
+    
 }
+
 
 ::-webkit-input-placeholder{
     color: #fff;
