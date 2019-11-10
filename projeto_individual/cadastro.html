@@ -58,10 +58,19 @@
         var valor_senha = senha.value;
         var valor_rep_senha = rep_senha.value;
 
+        
+        
         if (valor_nome == '' || valor_sobre == '' || valor_email == '' ||
          valor_senha.length == '' || valor_senha == '' || valor_rep_senha == ''){
 
+           
+            nome.style.borderBottom = '1px solid red';
+            sobre.style.borderBottom = '1px solid red';
+            email.style.borderBottom = '1px solid red';
+            senha.style.borderBottom = '1px solid red';
+           
             alert(`Preencha todos os campos`);
+        
         
         } else if(valor_nome.length < 3){
                 
