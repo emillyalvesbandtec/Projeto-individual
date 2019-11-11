@@ -68,11 +68,11 @@
             sobre.style.borderBottom = '1px solid red';
             email.style.borderBottom = '1px solid red';
             senha.style.borderBottom = '1px solid red';
-           
+            tremer();
             alert(`Preencha todos os campos`);
         
         
-        } else if(valor_nome.length < 3){
+        } else if(valor_nome.length <= 3){
                 
                 nome.style.borderBottom = '1px solid red';
                 tremer();

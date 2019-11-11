@@ -169,8 +169,12 @@ button:hover{
     top: 90%;
     right: 14%;
     position: absolute;
+    font-size: 12px;
 } 
 
+.tremer{
+    animation : tremer 0.5s linear 2;
+}
 
 @keyframes tremer{
     0%{

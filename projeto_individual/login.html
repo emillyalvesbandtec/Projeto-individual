@@ -65,10 +65,10 @@
                 var valor_email = email_login.value;
                 var valor_senha = senha_login.value;
 
-                if(valor_email.endsWith('@bandtec.com.br') &&  valor_senha.length >= 4){
+                if(valor_email == '' ||  valor_senha == ''){
 
                     tremer();
-                    alert(`Login efetuado com sucesso`);
+                    alert(`Preencha todos os campos`);
                 
                 }if(!valor_email.endsWith('@bandtec.com.br')){
                 

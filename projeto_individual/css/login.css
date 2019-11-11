@@ -91,8 +91,6 @@ body{
     font-size: 19px;
     color: #ffffff;
     text-decoration: none;
-    width: 49px;
-    height: 20px;
   }
   
   .home:hover, .sobre:hover {
@@ -212,10 +210,20 @@ a{
 }
 
 .tremer{
-    animation : tremer 1s linear 2;
+    animation : tremer 0.5s linear 2;
 }
 
-
+@keyframes tremer{
+    0%{
+        transform: translateX(0%);
+    }25%{
+        transform: translateX(10%);
+    }50%{
+        transform: translateX(-10%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
 
 
 /* .entrar{
