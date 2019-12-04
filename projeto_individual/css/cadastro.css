@@ -177,7 +177,7 @@ button:hover{
 } 
 
 .tremer{
-    animation : tremer 0.5s linear 2;
+    animation : tremer 0.3s linear 2;
 }
 
 @keyframes tremer{

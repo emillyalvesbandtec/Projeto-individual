@@ -191,6 +191,15 @@ a{
     color: #FE620B;
 }
 
+.logo{
+
+    text-decoration: none;   
+
+}
+
+.logo:hover{
+    text-decoration: none;
+}
 
 .esqueceu:hover {
     text-decoration: underline;
@@ -217,7 +226,7 @@ a{
 }
 
 .tremer{
-    animation : tremer 0.5s linear 2;
+    animation : tremer 0.3s linear 2;
 }
 
 @keyframes tremer{

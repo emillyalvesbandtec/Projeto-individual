@@ -24,11 +24,11 @@
         
         <div class="aside">
             
-            <div class="logo">
+           <a href="./home.html"> <div class="logo">
                 <h1 class="sport">SPORT</h1>
                 <p class="tech">tech</p>
             </div>
-            
+        </a>
             <h1 class="titulo">Bem-vindo a SPORTtech</h1>
             <p class="titulo-menor">Para acessar as novidades de seu time, entre com sua conta</p>
             
@@ -68,22 +68,28 @@
                 if(valor_email == '' ||  valor_senha == ''){
 
                     tremer();
+                    email_login.style.borderBottom = '2px solid red';
+                    senha_login.style.borderBottom = '2px solid red';
                     alert(`Preencha todos os campos`);
                 
-                }if(!valor_email.endsWith('@bandtec.com.br')){
-                
-                    tremer();
-                    email_login.style.borderBottom = '2px solid red';
-                    alert(`Email ou senha inválidos`);
-                
-                
-                } if(valor_senha.length < 3){
+            }else
 
-                    tremer();
-                    senha_login.style.borderBottom = '2px solid red';
-                    
-                }
+                     alert(`Email efetuado com  sucesso`);
+
             }
+                // }if(!valor_email.endsWith('@bandtec.com.br')){
+                
+                //     tremer();
+                //     email_login.style.borderBottom = '2px solid red';
+                //     alert(`Email ou senha inválidos`);
+                
+                
+                // } if(valor_senha.length < 3){
+
+                //     tremer();
+                //     senha_login.style.borderBottom = '2px solid red';
+                    
+                // }
             
             function tremer() {
         form.classList.add("tremer");
